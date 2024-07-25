@@ -205,9 +205,6 @@
     color: var(--text-dark);
     width: 100%;
   }
-  * {
-    outline: red solid 1px;
-  }
   .testimonial-section .testimonial-slide img {
     top: 10px;
     right: 10px;
