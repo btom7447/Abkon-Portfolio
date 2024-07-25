@@ -1,0 +1,217 @@
+@media screen and (max-width: 600px) {
+
+  :root {
+    --black: #000;
+    --white: #FFF;
+    --gray: #e8e8e8;
+    --light: #f2f2f2;
+    --dark: #292929;
+    --text-dark: #4b4b4b;
+  }
+
+  /* SIDEBAR */
+  .sidebar {
+    display: none;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: var(--dark);
+    color: var(--white);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9000;
+  }
+  .navbar h1 {
+    color: var(--white);
+    font-family: 'Lora', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .navbar .navbar-socials {
+    min-width: 100px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    color: var(--white);
+  }
+  /* HAMBURGER MENU */
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block; 
+    width: 100%;
+    height: 0;
+    background-color: var(--gray);
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    z-index: 800;
+    padding-top: 70px;
+  }
+  .mobile-menu.open {
+    height: 350px; 
+  }
+  .mobile-menu ul {
+    list-style: none;
+    padding: 20px;
+  }
+  .mobile-menu li {
+    color: var(--text-dark);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    margin-top: 20px;
+  }
+  .mobile-menu li:hover {
+    font-weight: 700;
+  }
+  .mobile-menu li .active {
+    font-weight: 700;
+  }
+
+  .main-content {
+    margin-left: 0;
+    margin-top: 60px; 
+  }
+
+  /* HOME SECTION */
+  .home-section {
+    height: 70vh;
+  }
+  .home-section .home-caption {
+    width: 90%;
+    margin-bottom: 80px;
+  }
+  .home-section .typed-text {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .home-section .home-socials {
+    width: 120px;
+    margin-top: 20px;
+  }
+
+  /* ABOUT SECTION */
+  .about-section .about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px 20px;
+
+  }
+  .about-section .about-grid .about-item:nth-of-type(1), 
+  .about-section .about-grid .about-item:nth-of-type(3) {
+    flex-direction: column;
+  }
+  .about-section .about-grid .about-item:nth-of-type(2) {
+    flex-direction: column;
+  }
+  .about-section .about-item .about-image {
+    width: 100%;
+    height: 20rem;
+    flex: auto;
+  }
+  .about-section .about-item .about-text {
+    width: 100%;
+    padding: 20px 0px;
+    flex: 1;
+  }
+  .about-section .about-text h5 {
+    font-size: 2em;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  /* SKILL SET */
+  .about-section .splide__slide {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+
+  /* SERVICES SECTION */
+  .services-section .service-caption {
+    padding: 20px;
+    padding-top: 50px;
+  }
+  .services-section .services-offered {
+    padding: 20px;
+  }
+  .services-offered .services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .service-highlight {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-section .projects-caption {
+    padding: 20px;
+    padding-top: 50px;
+  }
+  .projects-section .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .projects-section .project-item {
+    position: relative;
+    aspect-ratio: 1.4 / 1; 
+    overflow: hidden;
+  }
+
+  /* TESTIMONIAL SECTION */
+  .testimonial-section {
+    padding: 50px 20px;
+  }
+  .testimonial-section .testimonial-slide {
+    max-width: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+  .testimonial-section .testimonial-slide p {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  .testimonial-section .testimonial-slide img {
+    top: 10px;
+    right: 10px;
+  }
+  .testimonial-section .splide__pagination {
+    bottom: -3rem !important;
+  }
+
+  /* CONTACT SECTION */
+  .contact-section {
+    padding: 50px 20px;
+  }
+  .contact-section form input {
+    width: 100%;
+  }
+  .contact-section form textarea {
+    width: 100%;
+  }
+  .contact-section form button {
+    margin-top: 20px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 20px;
+    background-color: var(--gray);
+  }
+}
