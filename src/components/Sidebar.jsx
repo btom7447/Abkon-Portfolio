@@ -6,8 +6,8 @@ import { Link } from 'react-scroll';
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <img src="/abkon-logo.png" alt="abkon logo" />
-      <h1>Abkon</h1>
+        <img src={require('../assets/image/ABKON LOGO.png')} alt="abkon work setup" />     
+        <h1>Abkon</h1>
       <ul className="sidebar-navlinks">
         <li>
           <Link 

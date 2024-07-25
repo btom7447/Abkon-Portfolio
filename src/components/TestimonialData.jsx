@@ -32,7 +32,7 @@ const testimonialData = [
     text: "Abkon's creativity and ability to produce captivating brand identities is impressive. His skillful approach resulted in a seamless visual experience that enhances my online credibility and presence. I highly recommend his services!",
     name: "Benjamin Tom",
     title: "Web Developer",
-    image: require('./../assets/image/testimonial1.jpg'),
+    image: require('./../assets/image/testimony1.jpg'),
   },
 ];
   

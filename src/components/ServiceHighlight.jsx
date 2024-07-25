@@ -7,6 +7,8 @@ const ServiceHighlight = () => {
   const highlightRef = useRef(null);
 
   useEffect(() => {
+    const currentRef = highlightRef.current;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -19,13 +21,13 @@ const ServiceHighlight = () => {
       }
     );
 
-    if (highlightRef.current) {
-      observer.observe(highlightRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (highlightRef.current) {
-        observer.unobserve(highlightRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
