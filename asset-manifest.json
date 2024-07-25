@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Abkon-Portfolio/static/css/main.435e8b41.css",
+    "main.js": "/Abkon-Portfolio/static/js/main.a3bcd7c4.js",
+    "static/js/453.9d2712e7.chunk.js": "/Abkon-Portfolio/static/js/453.9d2712e7.chunk.js",
+    "static/media/home-background.jpg": "/Abkon-Portfolio/static/media/home-background.927ac9da7a71c7c4ba59.jpg",
+    "static/media/project3.jpg": "/Abkon-Portfolio/static/media/project3.7d67195aac10e839626c.jpg",
+    "static/media/testimony3.jpg": "/Abkon-Portfolio/static/media/testimony3.06ab383996b71f40da2e.jpg",
+    "static/media/abkon-background1.jpg": "/Abkon-Portfolio/static/media/abkon-background1.c13b8862a17239e31e96.jpg",
+    "static/media/abkon-background3.jpg": "/Abkon-Portfolio/static/media/abkon-background3.c56512e5226ff3c0e2a1.jpg",
+    "static/media/testimony2.jpg": "/Abkon-Portfolio/static/media/testimony2.7c1d6cbbf07681553599.jpg",
+    "static/media/abkon-background2.jpg": "/Abkon-Portfolio/static/media/abkon-background2.b635a4c038f7def26355.jpg",
+    "static/media/project1.jpg": "/Abkon-Portfolio/static/media/project1.f79172d78256f63e5450.jpg",
+    "static/media/project2.jpg": "/Abkon-Portfolio/static/media/project2.65218a2312727dd901f6.jpg",
+    "static/media/project7.jpg": "/Abkon-Portfolio/static/media/project7.3d85c1ddc2905faf9fe6.jpg",
+    "static/media/project4.jpg": "/Abkon-Portfolio/static/media/project4.2765545a19af51d7a738.jpg",
+    "static/media/testimony4.jpg": "/Abkon-Portfolio/static/media/testimony4.0a09489b9677218e37d1.jpg",
+    "static/media/testimony1.jpg": "/Abkon-Portfolio/static/media/testimony1.f97835a309145cb654d8.jpg",
+    "static/media/project5.jpg": "/Abkon-Portfolio/static/media/project5.feb00853b6ba766d7066.jpg",
+    "static/media/project8.jpg": "/Abkon-Portfolio/static/media/project8.4752de2d97faa09de57c.jpg",
+    "static/media/testimony5.jpg": "/Abkon-Portfolio/static/media/testimony5.3b525de8e546f2d1b75c.jpg",
+    "static/media/project6.jpg": "/Abkon-Portfolio/static/media/project6.17cc56e698925c33b0bb.jpg",
+    "static/media/ABKON LOGO.png": "/Abkon-Portfolio/static/media/ABKON LOGO.4e817e235eabe1cb7271.png",
+    "index.html": "/Abkon-Portfolio/index.html",
+    "main.435e8b41.css.map": "/Abkon-Portfolio/static/css/main.435e8b41.css.map",
+    "main.a3bcd7c4.js.map": "/Abkon-Portfolio/static/js/main.a3bcd7c4.js.map",
+    "453.9d2712e7.chunk.js.map": "/Abkon-Portfolio/static/js/453.9d2712e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.435e8b41.css",
+    "static/js/main.a3bcd7c4.js"
+  ]
+}
