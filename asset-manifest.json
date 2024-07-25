@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Abkon-Portfolio/static/css/main.435e8b41.css",
-    "main.js": "/Abkon-Portfolio/static/js/main.9b4ec7d9.js",
+    "main.css": "/Abkon-Portfolio/static/css/main.79512e0c.css",
+    "main.js": "/Abkon-Portfolio/static/js/main.31091ef7.js",
     "static/js/453.9d2712e7.chunk.js": "/Abkon-Portfolio/static/js/453.9d2712e7.chunk.js",
     "static/media/home-background.jpg": "/Abkon-Portfolio/static/media/home-background.4d52b776bf6795b4b282.jpg",
     "static/media/project3.jpg": "/Abkon-Portfolio/static/media/project3.70dfce0f6e7e0e7c6ceb.jpg",
@@ -22,12 +22,12 @@
     "static/media/project8.jpg": "/Abkon-Portfolio/static/media/project8.7ba5032248f753b9c43b.jpg",
     "static/media/ABKON LOGO.png": "/Abkon-Portfolio/static/media/ABKON LOGO.4e817e235eabe1cb7271.png",
     "index.html": "/Abkon-Portfolio/index.html",
-    "main.435e8b41.css.map": "/Abkon-Portfolio/static/css/main.435e8b41.css.map",
-    "main.9b4ec7d9.js.map": "/Abkon-Portfolio/static/js/main.9b4ec7d9.js.map",
+    "main.79512e0c.css.map": "/Abkon-Portfolio/static/css/main.79512e0c.css.map",
+    "main.31091ef7.js.map": "/Abkon-Portfolio/static/js/main.31091ef7.js.map",
     "453.9d2712e7.chunk.js.map": "/Abkon-Portfolio/static/js/453.9d2712e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.435e8b41.css",
-    "static/js/main.9b4ec7d9.js"
+    "static/css/main.79512e0c.css",
+    "static/js/main.31091ef7.js"
   ]
 }
