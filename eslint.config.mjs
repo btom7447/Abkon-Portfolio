@@ -5,16 +5,11 @@ import pluginReact from "eslint-plugin-react";
 export default [
   {
     files: ["**/*.{js,mjs,cjs,jsx}"],
-  },
-  {
     languageOptions: { globals: globals.browser },
-  },
-  pluginJs.configs.recommended,
-  pluginReact.configs.flat.recommended,
-  {
-    // Add this rules section
+    ...pluginJs.configs.recommended,  // Spread the recommended config here
+    ...pluginReact.configs.flat.recommended,  // Spread React config here
     rules: {
-      'no-unused-vars': 'warn',
+      'no-unused-vars': 'warn',  // Add your custom rule
     },
   },
 ];
