@@ -16,8 +16,8 @@ const testimonialData = [
   {
     id: 3, 
     text: "CK Barbershop's branding was a game-changer, all thanks to His incredible design skills. Our brand and branding materials have increased our customer engagement and loyalty. We're forever grateful!", 
-    name: "Ogbu Othuko", 
-    title: "CEO, CK Babershop", 
+    name: "Ogbu Stephanie", 
+    title: "Hr, CK Babershop", 
     image: require('./../assets/image/testimony5.jpg'),
   },
   {
@@ -25,7 +25,7 @@ const testimonialData = [
     text: "Pearl Aesthetic Skincare's brand identity was elevated to the next level thanks to His expertise. His designs are not only visually stunning but also effectively communicate our brand's values. We couldn't be happier!",
     name: "Peace Osahon",
     title: "CEO Pearl Aesthetic Skincare",
-    image: require('./../assets/image/testimony4.jpg'),
+    image: require('./../assets/image/testimony7.jpg'),
   },
   {
     id: 5,
